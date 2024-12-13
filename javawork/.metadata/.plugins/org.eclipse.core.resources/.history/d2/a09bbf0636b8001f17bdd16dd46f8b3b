@@ -1,0 +1,25 @@
+package day1212;
+
+import java.util.Date;
+
+public class Ex6Date {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 현재 날짜와 시간을 얻어보자
+		// Date 클래스는 jdk1.1 이후에 deprecate됨 - Calendar를 권장
+		// 모든 클래스는 new로 생성
+		// oracle java api에 기본형이 없으면 사용할 수 없음
+		
+		Date today = new Date();
+		
+		int curYear = today.getYear()+1900; //줄그음 : deprecate 되었다는 뜻, 실행 시 문제 없음
+		// 메소드 자체가 1900을 반환하기 때문에 +1900 필요
+		int curMonth = today.getMonth()+1;
+		// 메소드 자체가 0~11로 구성되어있기 때문에 +1 필요
+		
+		System.out.println("현재년도 : "+curYear);
+		System.out.println("현재월 : "+curMonth);
+	}
+
+}

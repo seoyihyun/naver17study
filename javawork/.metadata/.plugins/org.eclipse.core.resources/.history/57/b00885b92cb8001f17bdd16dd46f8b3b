@@ -1,0 +1,14 @@
+package day1212;
+
+public class Ex4Opeator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 관계연산자(< > <= >=), 논리연산자(&&,||,!)
+		
+		int kor=89,eng=100,math=89;
+		boolean f=false; //실패가 기준
+		
+	}
+
+}

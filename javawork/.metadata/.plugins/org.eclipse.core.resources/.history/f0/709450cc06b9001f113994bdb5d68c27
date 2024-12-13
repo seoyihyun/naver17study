@@ -1,0 +1,33 @@
+package day1213;
+
+public class Ex10For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(int i=1; i<=5; i++) // 3번째 위치에는 증감 또는 대입 연산자만 올 수 있음
+			System.out.print(i + " "); // for문 안에서 실행(띄어o)
+		System.out.println(); // for문 밖에서 실행(띄어x)
+		
+//		for(int=i; i<=10; i+=2)
+//			System.out.println(i + " ");
+//		System.out.println();
+//		
+//		for(int=a; a<=5; a--)
+//			System.out.print(a + " "); // for문 안에서 실행(띄어o)
+//		System.out.println();
+//		
+//		for(int=b; b<=100; b-=10)
+//			System.out.println(b + " ");
+//		System.out.println();
+		
+		for(int i=1; i<=10; i++) {
+			System.out.print(i + "");
+			if(i==5)
+				break;
+		}
+		
+			
+
+	}
+}

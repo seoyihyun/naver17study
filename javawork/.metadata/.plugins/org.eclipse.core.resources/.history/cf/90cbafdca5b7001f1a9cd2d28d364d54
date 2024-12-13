@@ -1,0 +1,23 @@
+package day1211;
+
+public class Book50 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 논리 타입 boolean
+		
+		boolean apple = false;
+		if(apple) {
+			System.out.println("중지");
+		}	else {
+			System.out.println("시작");
+		}
+		
+		int x = 10;
+		boolean result1 = (x==20);
+		boolean result2 = (x!=20);
+		
+		System.out.println("result1="+result1);
+		System.out.println("result2="+result2);	}
+
+}

@@ -1,0 +1,19 @@
+package day1212;
+
+import java.util.Scanner;
+
+public class Ex7Scanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 모든 클래스는 new로 생성
+		
+		Scanner sc = new Scanner(System.in); // 키보드로 입력한걸 스캔해라 = 콘솔에서 입력한걸 스캔해라
+		String word;
+		System.out.println("문장을 입력해보세요");
+		word = sc.next();
+		System.out.println("내가 입력한 단어는"+word+"입니다.");
+
+	}
+
+}

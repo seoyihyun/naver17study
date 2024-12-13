@@ -1,0 +1,32 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex7Wile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		// 다시 입력하면 정수 값이 없어짐
+		
+		int score, total = 0, count = 0; //정수 변수 선언, 점수는 초기값이 있어야 거따가 더할 수 있음
+		double avg;
+		
+		while(true) { 
+			System.out.print("점수를 입력해주세요(종료 시 0):");
+			score = sc.nextInt();
+			if (score==0)
+				break;
+			count++;
+			total+=score;
+		}
+		
+		avg = (double)total/count;
+		
+		System.out.println("총 입력한 점수 갯수 : "+count);
+		System.out.println("점수의 총 합계 :"+total);
+		System.out.println("점수들의 평균 :"+avg);
+	}
+
+}

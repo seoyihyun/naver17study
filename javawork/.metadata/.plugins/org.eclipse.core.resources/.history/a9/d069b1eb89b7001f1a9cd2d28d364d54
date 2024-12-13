@@ -1,0 +1,13 @@
+package day1211;
+
+public class Ex8Argument {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 아규먼트는 1번 외부 실행 후 가져올 수 있음
+		System.out.println("외부 값 읽어오기");
+		
+
+	}
+
+}

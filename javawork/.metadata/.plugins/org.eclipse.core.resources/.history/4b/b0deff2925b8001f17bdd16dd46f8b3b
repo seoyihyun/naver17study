@@ -1,0 +1,16 @@
+package day1212;
+
+public class Ex1Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 증감연산자, ++변수(전치 연산자:1순위), 변수++(후치 연산자:끝순위)
+		
+		int a,m,n;
+		a=5;
+		
+		
+
+	}
+
+}

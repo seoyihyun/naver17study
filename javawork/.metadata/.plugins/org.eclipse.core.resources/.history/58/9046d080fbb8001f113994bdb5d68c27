@@ -1,0 +1,18 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex7Wile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		int score, total = 0, count = 0; //정수 변수 선언, 점수는 초기값이 있어야 함
+		double avg;
+		
+		
+	}
+
+}
