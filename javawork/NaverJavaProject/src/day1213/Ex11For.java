@@ -6,6 +6,7 @@ public class Ex11For {
 		// TODO Auto-generated method stub
 		
 		System.out.println("알파벳 반복해서 출력하기");
+		
 		for(int i=65; i<=90; i++)
 			System.out.print((char)i+ " "); // 숫자를 캐릭터형으로 변환하여 출력(char)
 		System.out.println();

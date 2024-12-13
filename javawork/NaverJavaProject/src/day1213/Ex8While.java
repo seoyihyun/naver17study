@@ -16,15 +16,15 @@ public class Ex8While {
 		 */
 
 		Scanner sc = new Scanner(System.in);
-//		int num, start = 1, sum = 0;
-//		
-//		System.out.println("숫자를 입력하세요");
-//		num = sc.nextInt();
-//		
-//		while(start<=num) {			
-//		sum+=start++;
-//		} System.out.printf("%d 입력 시 1부터 %5d까지의 합계는 %5d 입니다", num,num,sum);
-//		
+		int num, start = 1, sum = 0;
+		
+		System.out.println("숫자를 입력하세요");
+		num = sc.nextInt();
+		
+		while(start<=num) {			
+		sum+=start++;
+		} System.out.printf("%d 입력 시 1부터 %5d까지의 합계는 %5d 입니다", num,num,sum);
+		
 		
 	}
 }
