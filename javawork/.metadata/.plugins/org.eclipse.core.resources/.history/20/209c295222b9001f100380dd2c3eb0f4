@@ -11,11 +11,17 @@ public class WhilePractice1 {
 		
 		int i = 1;
 		while(i <= 10) {
-//			i++; // 2~11까지 출력, i++(2)이 수행 된 후 while 조건에 해당하는 정수 값 출력?
+//			i++; // 2~11까지 출력, i++(2)이 수행 된 후 while 조건에 해당하는 정수 값 출력
 			System.out.print(i);
 			i++; // 선언한 정수부터 늘어날려면 출력 뒤, while문 안에서 증감연산자 사용 필요
 			
-
+		int a = 0;
+		while(a<=10) {
+			a++;
+			System.out.print(a);
+			if (a==10)
+				break;
+		}
 		}
 	}
 }
