@@ -18,7 +18,7 @@ public class WhilePractice1 {
 		int a = 0;
 		while(a<=10) {
 			a++;
-			System.out.print(a);
+			System.out.println(a);
 			if (a==10)
 				break;
 		}

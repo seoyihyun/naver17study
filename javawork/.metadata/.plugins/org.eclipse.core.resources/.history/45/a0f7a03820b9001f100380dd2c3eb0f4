@@ -16,11 +16,9 @@ public class WhilePractice1 {
 			i++; // 선언한 정수부터 늘어날려면 출력 뒤, while문 안에서 증감연산자 사용 필요
 			
 		int a = 0;
-		while(a<=10) {
+		while(i<=10) {
 			a++;
-			System.out.print(a);
-			if (a==10)
-				break;
+			System.out.println(a);
 		}
 		}
 	}
