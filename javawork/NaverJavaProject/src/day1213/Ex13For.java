@@ -14,11 +14,34 @@ public class Ex13For {
  */
 		Scanner sc = new Scanner(System.in);
 		
-		for(int i=1; i<=5; i++) {
-		System.out.println("5명의 나이를 입력하세요");
-		}
+		int count1=0, count2=0, sum=0, age;
+		double avg;
 		
-
+		
+		for(int i=1; i<=5; i++) {
+			System.out.println(i + " input");
+			age = sc.nextInt(); // for -> scanner
+			// 0~100 range out, re input
+			// continue : for -> i++fh move
+			
+			if(age<0 || age>=100) {
+				System.out.println("re input");
+				i--; // discount
+				continue;
+			}
+			
+			sum +=age;
+			
+			if(age>=40)
+				count1++;
+			else
+				count2++;
+		}
+		avg = (double)sum/5;
+		System.out.println(count1);
+		System.out.println(count2);
+		System.out.println(avg);
+	
 	}
 
 }

@@ -20,9 +20,9 @@ public class Ex12For {
 		
 		for(int i=1; i<=number; i++) { //1을 증가시키면서 입력한 넘버까지 반복해
 //			sum += i++; // 3 입력 시 1과 4 나열
-			sum = i++; // 3 입력 시 1과 3 나열
-			System.out.print((int)sum);	
+			sum += i;
 			}
+		System.out.print(sum); //forans qkRdptj tkdyd
 	}
   }
 

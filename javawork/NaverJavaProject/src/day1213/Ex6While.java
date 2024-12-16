@@ -34,7 +34,5 @@ public class Ex6While {
 				continue; // 조건식으로 이동(while 이나 do while에서)
 			System.out.printf("%2d\n", n); // 짝수는 출력 안되는 코드
 		}
-
 		}
-
 	}

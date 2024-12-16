@@ -13,7 +13,8 @@ public class Ex7While {
 		int score, total = 0, count = 0; //정수 변수 선언, 점수는 초기값이 있어야 거따가 더할 수 있음
 		double avg;
 		
-		while(true) { 
+		while(true)
+		{ 
 			System.out.print("점수를 입력해주세요(종료 희망 시 0 입력):");
 			// 첨부터 0 넣으면 평균 값 NaN 출력
 			score = sc.nextInt();

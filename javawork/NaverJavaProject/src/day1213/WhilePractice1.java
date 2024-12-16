@@ -9,13 +9,25 @@ public class WhilePractice1 {
 		
 		// While문 사용
 		
-		int i = 1;
-		while(i <= 10) {
-//			i++; // 2~11까지 출력, i++(2)이 수행 된 후 while 조건에 해당하는 정수 값 출력?
-			System.out.print(i);
-			i++; // 선언한 정수부터 늘어날려면 출력 뒤, while문 안에서 증감연산자 사용 필요
-			
-
+		int i =65;
+		while(i<=90) {
+			System.out.printf("%c ", i++); // while문의 경우 {} 안에서 값을 출력해야 함
+		}
+		System.out.println();
+		
+		char b = 'a';
+		do {
+			System.out.print(b++ + " ");
+		} while (b <='z');
+		System.out.println();
+		
+		int n = 1;
+		while (n<=10) {
+			n++;
+		if (n%2==0)
+			continue;
+			System.out.printf("%2d", n);
 		}
 	}
+		
 }

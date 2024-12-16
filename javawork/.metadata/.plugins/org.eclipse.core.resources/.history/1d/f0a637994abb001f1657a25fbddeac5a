@@ -1,0 +1,16 @@
+package day1216;
+
+public class Ex1Random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 
+		 * 1. use method "Math.random(")
+		 * 2. use class "Random" 
+		 */
+
+	}
+
+}

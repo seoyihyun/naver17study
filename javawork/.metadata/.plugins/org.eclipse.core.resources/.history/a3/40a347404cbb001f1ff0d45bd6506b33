@@ -1,0 +1,42 @@
+package day1216;
+
+public class Ex1Random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * create nansoo : case 2 
+		 * 1. use method "Math.random()"
+		 * 2. use class "Random" 
+		 * 
+		 * use static, new X
+		 */
+		
+		System.out.println("< Math.random() create i what 0.0 <=i && i<1.0 >");
+		for(int i=1; i<=5; i++) {
+			System.out.println(Math.random());
+		}
+		System.out.println();
+		
+		System.out.println("< create 0~9 number >"); // accept same number
+		for(int i=1; i<=5; i++) {
+			int n=(int)(Math.random()*10);
+			System.out.println(n);
+		}
+		System.out.println("< create 0~99 number >"); // accept same number
+		for(int i=1; i<=5; i++) {
+			int n=(int)(Math.random()*100);
+			System.out.println(n);
+		}
+		System.out.println("< create 1~10 number >"); // accept same number
+		for(int i=1; i<=5; i++) {
+			int n=(int)(Math.random()*10)+1; // set first data 1 : +1 
+			System.out.println(n);
+		}
+		
+			
+		}
+
+	}
+
