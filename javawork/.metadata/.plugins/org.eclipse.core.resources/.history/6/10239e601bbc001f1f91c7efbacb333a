@@ -1,0 +1,22 @@
+package day1217;
+
+public class Ex4ArrayString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// 값을 안넣고 인덱스만 구성 -> 값으로 null 출력
+		String [] str1;
+		str1 = new String[4];
+		str1[0] = "Hello";
+		str1[3] = "Kitty";
+		
+		for(int i=0; i<str1.length; i++)
+		{
+			System.out.println("str1["+i+"]="+str1[i]);
+		}
+
+	}
+
+}
