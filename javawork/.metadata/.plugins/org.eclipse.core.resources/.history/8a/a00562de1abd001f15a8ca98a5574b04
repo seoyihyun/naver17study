@@ -1,0 +1,28 @@
+package day1218;
+
+class Book
+{	
+	// 필드 선언
+	String bookModel = "우유";
+	String bookColor;
+	int bookPage;
+	
+	// 생성자 선언
+	public static void Book(String drinkColor, int drinkBottle)
+	{
+		this.
+	}
+}
+
+public class ObjectNewPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		
+		
+
+	}
+
+}

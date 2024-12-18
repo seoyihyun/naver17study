@@ -1,0 +1,25 @@
+package day1217;
+
+public class ArrayPractice1217 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] score = {20, 30, 40, 50};
+		int [] rank = new int[score.length];
+		
+		for(int i=0; i<score.length; i++)
+		{
+			rank[i]=1;
+			for(int j=0; j<score.length; j++)
+			{
+				if(score[i]<score[j])
+					rank[i]++;
+			}
+		}
+		for(int i=0; i<score.length; i++)
+			System.out.println((i+1)+" "+score[i]+" "+rank[i]);
+
+	}
+
+}

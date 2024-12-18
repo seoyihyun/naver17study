@@ -1,0 +1,28 @@
+package day1218;
+
+class Color
+{
+	public static final String color = "red";
+	
+	private String name;
+	private int code;
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public void setCode(int code)
+	{
+		this.code = code;
+		
+	}
+}
+
+public class ObjectExamPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

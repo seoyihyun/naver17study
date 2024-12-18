@@ -1,0 +1,24 @@
+package day1218;
+
+class Drink 
+{	
+	// 필드 생성
+	String model = "우유";
+	String color = "노랑색";
+	int bottle = 250;
+}
+
+public class Book217 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Drink water = new Drink();
+		System.out.println("모델명 :"+water.model);
+		System.out.println("속도 :"+water.speed);
+		System.out.println("시작여부 :"+water.start);
+		
+
+	}
+
+}

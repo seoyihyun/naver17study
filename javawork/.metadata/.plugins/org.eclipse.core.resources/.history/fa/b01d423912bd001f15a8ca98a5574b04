@@ -1,0 +1,28 @@
+package day1218;
+
+import java.text.NumberFormat;
+
+public class Ex10Object {
+	
+	public static void showTitle()
+	{
+		System.out.println("번호\t자동차명\t가격");
+		System.out.println("=".repeat(30));
+	}
+	
+	public static void writeCar(int num, car myCar)
+	{		
+		NumberFormat nf = NumberFormat.getInstance();
+		System.out.println(num+"\t"+myCar.getCarName()+"\t"+nf.format(myCar.getCarPrice()));
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		car writeCar = new car();
+		System.out.println("차 이름 : "+writeCar.getCarName());
+		System.out.println("차 가격 : "+writeCar.getCarPrice());
+
+	}
+
+}

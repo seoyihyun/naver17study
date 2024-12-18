@@ -1,0 +1,28 @@
+package day1218;
+
+class car
+{
+	// 얘는 static이지만 메서드를 통해 변경
+	static String carCompany = "현대";
+	
+	private String carName;
+	private String carPrice;
+	
+	public static void setCarCompany(String carCompany)
+	{
+		// static 메서드에서는 static 변수만 접근 가능
+		Car.carCompany = carcompany;
+	}
+	
+}
+
+public class Ex9Object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("현재 자동차 회사 명 : "+car.carCompany);
+
+	}
+
+}

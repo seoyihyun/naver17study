@@ -1,0 +1,29 @@
+package day1218;
+
+import java.util.Scanner;
+
+public class Ex1ArraySwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		/*
+		 * 인원 수를 입력 후 인원 수 만큼 이름과 자바, 스프링 두 점수를 입력하여
+		 * 총점, 평균, 등수, 등급을 구하시오
+		 */
+		
+		int inwon;
+		int []java, spring, rank;
+		int sum=0;
+		String []name, grade;
+		double avg;
+		
+		// 인원 수부터 읽은 후 모든 배열에 메모리 할당하기
+		System.out.println("인원 수를 입력해주세요");
+		inwon = Integer.parseInt(sc.nextLine());
+		
+		
+
+	}
+
+}

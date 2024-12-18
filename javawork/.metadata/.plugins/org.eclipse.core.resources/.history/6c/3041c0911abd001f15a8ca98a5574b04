@@ -1,0 +1,30 @@
+package day1218;
+
+class Drink
+{	
+	// 필드 선언
+	String drinkModel = "우유";
+	String drinkColor;
+	int drinkBottle;
+	
+	// 생성자 선언
+	public static void Drink(String drinkColor, int drinkBottle)
+	{
+		Drink.drinkColor = drinkColor;
+		Drink.drinkBottle = drinkBottle;
+	}
+}
+
+public class ObjectNewPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 생성자 선언
+		Drink milk = new Drink(null, 0);
+		
+		
+
+	}
+
+}

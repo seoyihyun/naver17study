@@ -1,0 +1,18 @@
+package day1218;
+
+class Drink
+{
+	Drink(String model, String color, int bottle)
+	{
+		
+	}
+}
+
+public class ObjectNewPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

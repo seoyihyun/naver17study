@@ -1,0 +1,17 @@
+package day1218;
+
+import java.util.Date;
+
+public class FormatExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 생각나는김에 배움 .. 
+		
+		Date date = new Date();
+		System.out.println(date);
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package day1218;
+
+class Apple
+{
+	static String message="Hello";
+	static final String EMP = "비트캠프";
+	String name = "캔디";
+	
+}
+// 컴파일 시 Apple.class 파일 생성
+// 동일한 파일 내에서 더이상 Apple이라는 클래스는 생성할 수 없음
+/////////////////////////////
+
+public class Ex7Object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("메세지 :"+Apple.message); // 다른 클래스의 static 변수는 class명.변수명 으로 접근
+	}
+
+}
