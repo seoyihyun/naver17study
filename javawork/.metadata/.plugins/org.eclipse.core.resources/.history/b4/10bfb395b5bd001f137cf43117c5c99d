@@ -1,0 +1,34 @@
+package day1219;
+
+class Orange {
+	// 멤버변수 선언
+	private String name;
+	private String color;
+	private int age;
+	
+	// 생성자 선언
+	Orange() {
+		this.name = "로로";
+		this.color = "노랑";
+		this.age = 30;
+	}
+	
+	public void writeMember()
+	{
+		System.out.println("name="+name+", color="+color+", age="+age);
+	}
+}
+
+public class Ex4Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Orange orange = new Orange();
+		orange.writeMember();
+		
+		
+
+	}
+
+}

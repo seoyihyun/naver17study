@@ -7,7 +7,7 @@ class Book
 	String bookColor;
 	int bookPage;
 	
-	// 생성자 선언
+	// 생성자 선언 ? 
 	public Book(String bookColor, int bookPage)
 	{
 		this.bookColor = bookColor;

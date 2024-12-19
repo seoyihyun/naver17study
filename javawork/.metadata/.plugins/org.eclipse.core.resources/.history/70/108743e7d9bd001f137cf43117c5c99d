@@ -1,0 +1,17 @@
+package day1219;
+
+import java.util.Scanner;
+
+public class Ex11MyCarArray {
+
+	public static void writeMyCar(MyCar myCar) {
+		System.out.println(myCar.getCarName()+myCar.getCarPrice()+myCar.getCarColor()+myCar.getGuipDay());
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+			Scanner sc = new Scanner(System.in);
+
+		}
+
+	}

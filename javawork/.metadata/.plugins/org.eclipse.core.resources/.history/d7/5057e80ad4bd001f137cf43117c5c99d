@@ -1,0 +1,18 @@
+package day1219;
+
+public class Ex10MyCarArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyCar m1 = new MyCar();
+		
+
+	}
+
+	@Override
+	public String toString() {
+		return "Ex10MyCarArray []";
+	}
+
+}

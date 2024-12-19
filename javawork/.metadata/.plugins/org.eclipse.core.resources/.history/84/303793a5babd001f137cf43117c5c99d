@@ -1,0 +1,29 @@
+package day1219;
+/*
+ * CallByValue : 인자전달방식, 값만 전달(기본형, String)
+ * CallByReference : 주소가 전달됨(모든 객체, 배열 타입)
+ */
+
+public class Ex5CallBy {
+	
+	public static void changeInt(int n) { // 다른 주소 신규 생성, main에 영향을 주지 않음
+		n=200;
+	}
+	public static void changeString(String s ) {
+		s = "Apple";
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=100;
+		changeInt(n);
+		System.out.println("n="+n); // 값만 전달되기 때문에 
+		
+		String s="orange";
+		changeString(s);
+		System.out.println("s="+s);
+
+	}
+
+}

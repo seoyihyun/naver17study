@@ -16,6 +16,7 @@ public class Ex2Lotto {
 		// 금액 입력하기
 		System.out.println("금액을 입력해주세요");
 		money = sc.nextInt();
+		
 		// 1천원 미만이면 종료
 		if(money < 1000)
 		{
@@ -23,17 +24,17 @@ public class Ex2Lotto {
 			return; // 프로그램 종료
 		}
 		// 금액만큼 로또 숫자 발생 후 출력(오름차순)
-		for(int i=1; i<=(money/1000); i++)
+		for(int n=1; n<=(money/1000); n++)
 		{	
-			System.out.printf("%3d회 : ",i);
+			System.out.printf("%3d회 : ",n);
 			
 			// lotto 배열에 1~45 난수 발생, 중복 체크
-			for(int j=0; j<lotto[i].length; j++)
-			{
-				lotto[i] = (int)Math.random()*45+1;
-				for(int z=0; z<j; z++)
+			for(int i=0; i<lotto.length; i++)
+			{	
+				lotto[i] = r.nextInt(45)+1;
+				for(int j=0; j<i; j++)
 				{
-					if(lotto[j]==lotto[z])
+					if(lotto[i]==lotto[j])
 					{
 						j--;
 						break; // 중복 체크
@@ -43,7 +44,7 @@ public class Ex2Lotto {
 			// 오름차순 정렬
 			for(int i=0; i<lotto.length-1; i++)
 			{	
-				for(int j=i+1; j<lotto[i].length; j++)
+				for(int j=i+1; j<lotto.length; j++)
 				{
 					if(lotto[j]>lotto[i])
 					{

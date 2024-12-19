@@ -21,6 +21,7 @@ class Color
 	{
 		System.out.println("이름:"+name+"\t코드:"+code);
 	}
+	
 	// 아래class에 새로운 출력문을 생성할 때
 	public String getName()
 	{

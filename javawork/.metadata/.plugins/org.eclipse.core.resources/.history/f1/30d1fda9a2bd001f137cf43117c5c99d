@@ -1,0 +1,14 @@
+package day1219;
+
+public class Student {
+	
+	// 필드(멤버 변수) 선언
+	private String stuName;
+	private String stuAddress;
+	private String stuBlood;
+	private int stuBirthyear;
+	private int stuScore;
+	
+	
+
+}

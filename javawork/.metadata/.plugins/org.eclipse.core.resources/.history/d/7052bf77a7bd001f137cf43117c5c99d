@@ -1,0 +1,25 @@
+package day1219;
+
+public class Ex1ObjectArray {
+	Student []stuArray = new Student[3]; // null인 상태에서는 메소드 호출 불가
+	
+	public void inputData() {
+		System.out.println("inputData");
+	}
+	
+	public static void showTitle() {
+		System.out.println("showTitle");
+	}
+	
+	public void writeDataArray() {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 메인 메소드에서는 호출만 할 예정
+
+	}
+
+}

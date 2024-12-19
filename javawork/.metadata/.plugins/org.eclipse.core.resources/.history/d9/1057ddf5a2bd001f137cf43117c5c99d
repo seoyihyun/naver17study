@@ -1,0 +1,30 @@
+package day1219;
+
+public class Student {
+	
+	// 필드(멤버 변수) 선언
+	private String stuName;
+	private String stuAddress;
+	private String stuBlood;
+	private int stuBirthyear;
+	private int stuScore;
+	
+	// Source > Getters and Setters
+	public String getStuName() {
+		return stuName;
+	}
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	public String getStuAddress() {
+		return stuAddress;
+	}
+	public void setStuAddress(String stuAddress) {
+		this.stuAddress = stuAddress;
+	}
+	
+	
+	
+	
+
+}

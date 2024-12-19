@@ -1,0 +1,44 @@
+package day1219;
+
+class Orange {
+	// 멤버변수 선언
+	private String name;
+	private String color;
+	private int age;
+	
+	// 생성자 선언 : 오렌지를 몇개 생성하든 초기 값은 아래와 같게 됨
+	Orange() { 
+		this.name = "로로";
+		this.color = "노랑";
+		this.age = 30;
+	}
+	// 생성자 선언 : 이름하고 컬러만 유동적이게 만들고싶다?
+	Orange(String name, String color) {
+		this.name = name;
+		this.color = color;
+		this.age = 30;
+	}
+	
+	public void writeMember()
+	{
+		System.out.println("name="+name+", color="+color+", age="+age);
+	}
+}
+
+public class Ex4Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Orange orange1 = new Orange();
+		orange1.writeMember();
+		
+		Orange orange2 = new Orange("민시","파랑");
+		
+		
+		
+		
+
+	}
+
+}

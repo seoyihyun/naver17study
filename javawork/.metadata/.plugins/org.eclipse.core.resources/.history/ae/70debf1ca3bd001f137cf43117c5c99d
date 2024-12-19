@@ -1,0 +1,36 @@
+package day1219;
+
+public class Student {
+	
+	// 필드(멤버 변수) 선언
+	private String stuName;
+	private String stuAddress;
+	private String stuBlood;
+	private int stuBirthyear;
+	private int stuScore;
+	
+	// Source > Getters and Setters
+	public String getStuName() {
+		return stuName; 
+	}
+	public void setStuName(String stuName) { // 지역변수명=멤버변수명 똑같으면
+		this.stuName = stuName; // this가 무조건 붙어야 함
+	}
+	public String getStuAddress() {
+		return stuAddress;
+	}
+	public void setStuAddress(String stuAddress) {
+		this.stuAddress = stuAddress;
+	}
+	
+	// stuBlood에 대한 setter & getter
+	
+	// stuBirthYear에 대한 setter & getter
+	
+	// stuScore에 대한 setter & getter
+	
+	
+	
+	
+
+}
