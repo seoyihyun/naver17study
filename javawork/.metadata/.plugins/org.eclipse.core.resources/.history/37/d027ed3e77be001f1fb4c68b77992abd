@@ -1,0 +1,25 @@
+package day1220;
+
+public class Ex2Inheri {
+
+	class SuperObj2 {
+		private String schoolName;
+
+		public SuperObj2() {
+			schoolName = "정담고";
+		}
+		SuperObj2(String schoolName) {
+			this.schoolName = schoolName;
+		}
+	}
+
+	class SubObh2 {
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

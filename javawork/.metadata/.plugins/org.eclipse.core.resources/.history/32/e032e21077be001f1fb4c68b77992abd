@@ -1,0 +1,17 @@
+package day1220;
+
+public class Ex2Inheri {
+	
+	class SuperObj2 {
+		
+	}
+	class SubObh2 {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

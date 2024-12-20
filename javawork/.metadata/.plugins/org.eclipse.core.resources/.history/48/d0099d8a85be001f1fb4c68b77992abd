@@ -1,0 +1,27 @@
+package day1220;
+
+class Apple { 
+	public void job() {
+		System.out.println("아침식사를 준비합니다");
+	}
+	
+	protected void study() {
+		System.out.println("자바 공부를 합니다");
+	}
+}
+class orange extends Apple {
+	public void play() {
+		this.job();
+		this.study();
+		this.draw(); //패키지가 다를 경우 상관관계라 하더라도 접근 불가
+	}
+}
+
+public class Ex4Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

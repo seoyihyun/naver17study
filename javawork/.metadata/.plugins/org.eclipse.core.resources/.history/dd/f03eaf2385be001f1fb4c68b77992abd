@@ -1,0 +1,25 @@
+package day1220;
+//패키지가 다르다고 가정하고 실습
+class Apple { 
+	public void job() {
+		System.out.println("아침식사를 준비합니다");
+	}
+	
+	protected void study() {
+		System.out.println("자바 공부를 합니다");
+	}
+}
+class orange extends Apple {
+	public void play() {
+		//패키지가 다를 경우 protected 또한 호출 됨
+	}
+}
+
+public class Ex4Inheri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
